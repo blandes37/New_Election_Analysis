@@ -9,8 +9,9 @@ For this assignment, we were tasked with auditing the outcome of a congressional
 2. Compile full list of candidates that received votes
 3. Calculate number of votes each candidate received
 4. Calculate the percentage of votes each candidate received.
-![](Election_Analysis/Resources/win_calc.jpg)
 5. Determine the winner of the election based on popular vote.
+
+![](Election_Analysis/Resources/win_calc.jpg)
 
 ## Resources
 -Data Source: election_results.csv
