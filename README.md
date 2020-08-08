@@ -11,33 +11,36 @@ For this assignment, we were tasked with auditing the outcome of a congressional
 5. Determine the winner of the election based on popular vote.
 
 **The code below completed steps 1-3.**
-![image1](https://github.com/blandes37/Images/blob/master/Annotation%202020-08-08%20150244.jpg)
+![Total Vote Calculation](Election_Analysis/Resources/tt_vote_calc.jpg)
 
 **The code below completes steps 4 and 5.**
-![image2](Election_Analysis/Resources/win_calc.jpg)
+![Candidadte Vote Calculation](Election_Analysis/Resources/win_calc.jpg)
 
 ## Resources
--Data Source: election_results.csv
--Software: Python 3.6.7, Visual Studio Code, 1.38.1
+- Data Source: election_results.csv
+- Software: Python 3.6.7, Visual Studio Code, 1.38.1
 
 ## Summary
-The purpose of this election audit was to ensure the accuracy of the election results and determine if a more efficient results calculation process can be developed. The election analysis produced the following results:
+The purpose of this election audit was to ensure the accuracy of the election results and determine if a more efficient results calculation process can be developed. Using a CSV file containing all of the voter ballot information, we utilized python to count votes by candidate and by county. 
+\nThe election analysis produced the following results:
 
 ## Total Votes: 369,711
 ### County Votes:
--Jefferson: 10.5% (38,855)
--Denver: 82.8% (306,055)
--Arapahoe: 6.7% (24,801)
+- Jefferson: 10.5% (38,855)
+- Denver: 82.8% (306,055)
+- Arapahoe: 6.7% (24,801)
 *Largest County Turnout: **Denver**
+- This was calculated using the code pictured below and can be checked by 38,855 + 306,055 + 24,801 = 369,711
+![County Vote Totals](Election_Analysis/Resources/county_count)
 
 ### Candidate Votes:
--Charles Casper Stockham: 23.0% (85,213)
--Diana DeGette: 73.8% (272,892)
--Raymon Anthony Doane: 3.1% (11,606)
+- Charles Casper Stockham: 23.0% (85,213)
+- Diana DeGette: 73.8% (272,892)
+- Raymon Anthony Doane: 3.1% (11,606)
 
 ### Winner: **Diana DeGette**
--Winning Vote Count: 272,892
--Winning Percentage: 73.8%
+- Winning Vote Count: 272,892
+- Winning Percentage: 73.8%
 
 # Analysis and recommendation
 This code was able to perform the assigned task successfully and with great efficiency. This process should replace any manual counting taking place within your jurisdiction. The code was developed in a way that allows for adaptability and it can be applied in any type of election. 
