@@ -5,12 +5,12 @@ For this assignment, we were tasked with auditing the outcome of a congressional
 
 **Process**
 1. Calculate total votes cast. 
-![](https://github.com/blandes37/Images/blob/master/Annotation%202020-08-08%20150244.jpg)
 2. Compile full list of candidates that received votes
 3. Calculate number of votes each candidate received
 4. Calculate the percentage of votes each candidate received.
 5. Determine the winner of the election based on popular vote.
 
+![](https://github.com/blandes37/Images/blob/master/Annotation%202020-08-08%20150244.jpg)
 ![](Election_Analysis/Resources/win_calc.jpg)
 
 ## Resources
