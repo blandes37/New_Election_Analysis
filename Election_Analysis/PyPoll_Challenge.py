@@ -116,6 +116,7 @@ with open(file_to_save, "w") as txt_file:
 
          # 6e: Save the county votes to a text file.
         #txt_file.write(county_results)
+        txt_file.write(county_results)
 
          # 6f: Write a decision statement to determine the winning county and get its vote count.
         if(cvotes > top_count) and (county_percentage > top_percentage):
