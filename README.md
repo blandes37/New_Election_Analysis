@@ -10,7 +10,10 @@ For this assignment, we were tasked with auditing the outcome of a congressional
 4. Calculate the percentage of votes each candidate received.
 5. Determine the winner of the election based on popular vote.
 
+**The code below completed steps 1-3.**
 ![image1](https://github.com/blandes37/Images/blob/master/Annotation%202020-08-08%20150244.jpg)
+
+**The code below completes steps 4 and 5.**
 ![image2](Election_Analysis/Resources/win_calc.jpg)
 
 ## Resources
