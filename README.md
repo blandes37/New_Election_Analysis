@@ -28,7 +28,7 @@ The purpose of this election audit was to ensure the accuracy of the election re
 ### County Votes:
 - Jefferson: 10.5% (38,855)
 - Denver: 82.8% (306,055)
-- Arapahoe: 6.7% (24,801)
+- Arapahoe: 6.7% (24,801)\n
 *Largest County Turnout: **Denver**
 - This was calculated using the code pictured below and can be checked by 38,855 + 306,055 + 24,801 = 369,711
 ![County Vote Totals](Election_Analysis/Resources/county_count)
